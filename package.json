@@ -13,8 +13,8 @@
     "postmigrate": "yarn codegen"
   },
   "devDependencies": {
-    "blitz": "^0.45.4",
-    "prisma": "^3.12.0"
+    "prisma": "^3.12.0",
+    "typescript": "^4.6.3"
   },
   "dependencies": {
     "@prisma/client": "^3.12.0"
