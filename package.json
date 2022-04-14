@@ -1,0 +1,20 @@
+{
+  "name": "db-man",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "migrate": "prisma migrate dev",
+    "codegen": "prisma generate",
+    "studio": "prisma studio",
+    "prepare": "yarn codegen",
+    "postmigrate": "yarn codegen"
+  },
+  "devDependencies": {
+    "blitz": "^0.45.4",
+    "prisma": "^3.12.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.12.0"
+  }
+}
