@@ -2,6 +2,8 @@
   "name": "db-man",
   "version": "1.0.0",
   "main": "index.ts",
+  "module": "index.ts",
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "migrate": "prisma migrate dev",
